@@ -13,6 +13,17 @@ body {
     font-size: 1.6rem;
 }
 
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+
+
 /* ----------------- */
 /*      nawigacja    */
 /* ----------------- */
@@ -30,3 +41,86 @@ nav {
     font-weight: bold;
     text-transform: none;
 }
+
+
+
+/* ----------------- */
+/*       header      */
+/* ----------------- */
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    padding-top: 15rem;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one{
+    background-image: url("../img/1-2.jpg");
+}
+
+.carousel-img-two{
+    background-image: url("../img/2-2.jpg");
+}
+
+.carousel-img-three{
+    background-image: url("../img/3-2.jpg");
+}
+
+
+
+/* ----------------- */
+/*        home       */
+/* ----------------- */
+.home-boxes {
+    padding: 5em;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+/* ----------------- */
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url("../img/5.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+@media (min-width:1400px) {
+    .carousel-item {
+        height: 600px;
+        padding-top: 30rem;
+
+    }
+
+    .carousel-img-one{
+        background-image: url("../img/1.jpg");
+    }
+    
+    .carousel-img-two{
+        background-image: url("../img/2.jpg");
+    }
+    
+    .carousel-img-three{
+        background-image: url("../img/3.jpg");
+    }
+}
+
+
+
+
