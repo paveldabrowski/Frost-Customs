@@ -22,6 +22,26 @@ body {
     z-index: -1;
 }
 
+.additional-text {
+    font-size: 1.8rem;
+}
+
+.top-hero {
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
 
 
 /* ----------------- */
