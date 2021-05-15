@@ -238,6 +238,19 @@ header {
 }
 
 
+/* ----------------- */
+/*      projekty     */
+/* ----------------- */
+.projects-hero {
+    background-image: url("../img/projects/project-hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.projects img {
+    height: 240px;
+    object-fit: cover;
+}
 
 /* ----------------- */
 /*       footer      */
