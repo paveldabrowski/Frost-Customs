@@ -13,6 +13,10 @@ body {
     font-size: 1.6rem;
 }
 
+.fixed-margin {
+    margin-top: 6rem;
+}
+
 .hero-shadow {
     position: absolute;
     top: 0;
@@ -49,7 +53,7 @@ body {
 /* ----------------- */
 nav {
     font-size: 2rem;
-    text-transform: uppercase;    
+    text-transform: uppercase;     
 }
 
 .navbar-toggler {
@@ -93,8 +97,6 @@ header {
     background-image: url("../img/3-2.jpg");
 }
 
-
-
 /* ----------------- */
 /*        home       */
 /* ----------------- */
@@ -125,12 +127,105 @@ header {
     font-size: 3rem;
     font-weight: bold;
 }
+/* ----------------- */
+/*      aboutus      */
+/* ----------------- */
+.aboutus-hero {
+    background-image: url("../img/about/o\ firmie\ 2.jpg");
+    background-position: bottom;
+}
+/* ----------------- */
+
+.aboutus-top .display-3 {
+    text-transform: uppercase;
+}
+
+/* ----------------- */
+.aboutus-info {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+    padding: 2em .5rem;
+}
+
+.aboutus-text {
+    padding: 1.9em;
+}
+
+.aboutus-text h3 {
+    margin-bottom: .5em;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline #007BFF;
+}
+
+.aboutus-text-right {
+    text-align: right;
+}
+
+.aboutus-img {
+    height: 300px;
+    background-image: url("../img/about/o\ firmie\ 1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------------- */
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* ----------------- */
+/*       usługi      */
+/* ----------------- */
+.service-hero {
+    background-image: url("../img/services/hero-img.jpg");
+    background-position: 0 75%;
+    /* background-size: cover; */
+}
 
 /* ----------------- */
 /*       footer      */
 /* ----------------- */
 footer {
     font-size: 1.6rem;
+}
+
+@media (min-width:992px) {
+    .aboutus-info .container {
+        padding: 0;
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+    .aboutus-img {
+        transform: skew(-15deg);
+        height: auto;
+    }
 }
 
 @media (min-width:1400px) {
